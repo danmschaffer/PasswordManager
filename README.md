@@ -29,14 +29,14 @@ Users can retrieve passwords by providing the website and the correct security k
 Users set a security key that must be used to retrieve passwords. This ensures that only authorized users can access the stored credentials.
 
 **Usage**
-**Set Security Key:** Define a security key to protect your passwords.
-**Add Password:** Store a new password by providing website, username, and password.
-**Get Password:** Retrieve a password by entering the website and the correct security key.
-**Exit:** Exit the program.
+-**Set Security Key:** Define a security key to protect your passwords.
+-**Add Password:** Store a new password by providing website, username, and password.
+-**Get Password:** Retrieve a password by entering the website and the correct security key.
+-**Exit:** Exit the program.
 **Code Structure**
-Main Menu: Provides options to set the security key, add a password, retrieve a password, or exit the program.
-Password Management: Functions to add, retrieve, and load passwords from the file.
-Encryption: Simple XOR-based encryption and decryption.
+-Main Menu: Provides options to set the security key, add a password, retrieve a password, or exit the program.
+-Password Management: Functions to add, retrieve, and load passwords from the file.
+-Encryption: Simple XOR-based encryption and decryption.
 
 **Example**
 ```
